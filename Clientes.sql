@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Nome] VARCHAR(100) NOT NULL, 
+    [Endereco] VARCHAR(100) NOT NULL, 
+    [Bairro] VARCHAR(50) NOT NULL, 
+    [Cidade] VARCHAR(50) NOT NULL, 
+    [CEP] VARCHAR(50) NOT NULL, 
+    [UF] VARCHAR(50) NOT NULL, 
+    [Telefone] VARCHAR(50) NOT NULL
+)
